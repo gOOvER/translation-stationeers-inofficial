@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>ScenariosBorznacsKitchen</Key>
+      <Value>Borznacova kuchyně</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralGasMixingSubTitle</Key>
+      <Value>Raději se pusťte do vaření</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenDescription</Key>
+      <!--Menu Disc-->
+      <Value>Poté, co byl Borznac pátý vyřazen z několika obchodních dohod se Sinotai, rozhodl se vybudovat vlastní říši a ovládnout všechny okolní měsíční základny, včetně té vaší.
+Byl jste nucen pracovat jako jeho nový osobní kuchař. Tak se raději pusťte do vaření.</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenIntroDescription</Key>
+      <!--Intro Panel-->
+      <Value>Borznac pátý není známý svou zdvořilostí. Poté, co byl vyřazen z několika obchodních dohod se Sinotai, rozhodl se vybudovat vlastní říši a ovládnout všechny okolní lunární základny, včetně té vaší.
+Byl jste nucen pracovat jako jeho nový osobní kuchař. Stále nevíte, co se stalo s jeho posledním kuchařem, a nechcete to zjistit. Má docela chuť k jídlu a je velmi netrpělivý. Takže se raději pusťte do vaření.</Value>
+    </Record>
+    <Record>
+      <Key>CookingForYourLifeSubTitle</Key>
+      <Value>Vařte jako o život!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato1</Key>
+      <Value>Uvařte a doručte 4 pečené brambory.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask1</Key>
+      <Value>Uvařte a doručte 2 balení hranolek.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask1</Key>
+      <Value>Upečte a doručte 3 muffiny.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask1</Key>
+      <Value>Uvařte a doručte 2 bochníky chleba.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask1</Key>
+      <Value>Vyrobte a doručte 2 kartony mléka.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinPie1</Key>
+      <Value>Upečte a doručte 2 dýňové koláče.</Value>
+    </Record>
+    <Record>
+      <Key>TomatoSoup1</Key>
+      <Value>Rozmixujte a doručte plechovku rajčatové polévky.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinSoup1</Key>
+      <Value>Rozmixujte a doručte plechovku dýňové polévky.</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato2</Key>
+      <Value>Upečte a doručte 2 pečené brambory.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask2</Key>
+      <Value>Upečte a doručte 1 bochník chleba.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask2</Key>
+      <Value>Usmažte a doručte 1 balení hranolek.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinTask2</Key>
+      <Value>Upečte a doručte 1 dýňový koláč.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask2</Key>
+      <Value>Upečte a doručte 3 muffiny.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask2</Key>
+      <Value>Vyrobte a doručte 2 kartony mléka.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration0D</Key>
+      <Value>Mám hlad, tak mi udělejte pečené brambory. Ale nezapomeňte, že najednou můžete uvařit jen jednu.
+Až budou hotové, doručte mi je skrz šachtu. Nezklamte mě. Můj poslední kuchař byl pomalý a hloupý. Nedopadlo to s nimi dobře.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration1D</Key>
+      <Value>To bylo sotva dostačující. Chci něco s chutí. Žádám  hranolky! Určitě si pamatujete, jak se vaří?</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration2D</Key>
+      <Value>Mmmmm ... to bylo lepší. Teď mám chuť na sladkou svačinu. Udělejte mi muffiny, nebo zažijete můj hněv.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration3D</Key>
+      <Value>Ach, všechna ta sladkost mě dostala do těstovité nálady. Ano, myslím, že nějaký chléb se bude hodit.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration4D</Key>
+      <Value>Ze všeho toho jídla jsem trochu vyprahlý. Potřebuji se napít. Nějaké čerstvé mléko bude ideální. Ať je to tak!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration5D</Key>
+      <Value>Ach, vedl jste si mnohem lépe než váš předchůdce. Teď něco klasického. Dýňový koláč je to, co potřebuji. Okamžitě mi ho udělejte. Otevřel jsem šachtu v místnosti se zdroji. Můžete použít cokoliv, co tam nechal minulý kuchař.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration6D</Key>
+      <Value>Vynikající. Na rozdíl od vašeho imbecilního předchůdce máte možná na to, abyste mi sloužil. Jednoho dne možná dokonce zvážím, že Vám dám svobodu. Možná. Ale teď jsem připraven na večeři. Dokončete jídlo o třech chodech, nebo ponesete nevýslovné následky.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacWinEnd</Key>
+      <Value>Prokázal jste, že jste nepostradatelným služebníkem Borznaca.
+			
+Gratulujeme.</Value>
+    </Record>
+  </Interface>
+</Language>

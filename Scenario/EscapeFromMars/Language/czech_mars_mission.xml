@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Czech</Name>
+  <Code>CS</Code>
+  <Font>font_russian</Font>
+  <Interface>
+    <Record>
+      <Key>EscapeFromMarsTitle</Key>
+      <Value>Útěk z Marsu [BETA]</Value>
+    </Record>
+    <Record>
+      <Key>EscapeFromMarsDescription</Key>
+      <Value>PRO TESTOVÁNÍ: S pouhými skromnými zásobami musíte využít svůj důvtip a duchapřítomnost, abyste našli způsob, jak přežít na Marsu.  Pokud vše půjde podle plánu, povede to nakonec k sestrojení rakety, která je schopna opustit atmosféru Marsu.</Value>
+    </Record>
+    <!-- Mission Stage: In Case of Emergency -->
+    <Record>
+      <Key>MarsTitleInCaseOfEmergency</Key>
+      <Value>V případě nouze...</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescInCaseOfEmergency</Key>
+      <Value>Váš oblek je poškozený a potřebujete najít nějaké jídlo.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetTape</Key>
+      <Value>Najděte {THING:ItemDuctTape}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetFood</Key>
+      <Value>Najděte {THING:ItemCerealBar}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1</Key>
+      <Value>NOUZOVÁ PŘÍRUČKA</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page1</Key>
+      <Value>STRANA 1 z 2\nNepanikařte.\n\nPokud čtete tento článek, přežili jste evakuaci - gratulujeme.  Bez ohledu na prostředí je vaší prioritou zkontrolovat zdraví své i svého okolí.  Nezapomeňte také zkontrolovat neporušenost obleku, protože nelze říci, v jakém prostředí se můžete ocitnout, a ochrana jakýchkoli zásob vzduchu je pro vás zásadní.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage1Page2</Key>
+      <Value>STRANA 2 z 2 \nJestliže se nacházíte v blízkosti neporušeného únikového modulu a připojené zásobovací bedny, měli byste mít k dispozici důležité zásoby, které vám pomohou při čekání na záchranu. Pokud ne, hledejte přeživší.  Měli byste si poznamenat umístění nebo shromáždit všechny zásoby, které budou pro vaše přežití nejdůležitější, jako jsou potraviny, baterie, užitkové materiály, například lepicí páska, a přenosné vybavení pro přežití. \n</Value>
+    </Record>
+    <!-- Mission Stage: Aquire Raw Materials -->
+    <Record>
+      <Key>MarsTitleRawMaterials</Key>
+      <Value>Žebrat, zakopávat a krást</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2</Key>
+      <Value>SUROVÉ MATERIÁLY</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescRawMaterials</Key>
+      <Value>Najděte způsob, jak vyrobit základní materiály, které potřebujete k zahájení výroby.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetIronIngots</Key>
+      <Value>Získejte {THING:ItemIronIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetCopperIngots</Key>
+      <Value>Získejte {THING:ItemCopperIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGetGoldIngots</Key>
+      <Value>Získejte {THING:ItemGoldIngot}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page1</Key>
+      <Value>STRANA 1 z 5 \nŽEBRAT, ZAKOPÁVAT nebo KRÁST\n\nNaštěstí naše výrobní nástroje znají všechny recepty, které budete ve své situaci pravděpodobně potřebovat.  Bohužel k tomu budou potřebovat suroviny.  Ty mohou pocházet z několika zdrojů v závislosti na vaší situaci:</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page2</Key>
+      <Value>STRANA 2 z 5 \nPROHLEDÁVÁNÍ\n\nPokud je Vaše plavidlo stále z velké části neporušené, můžete najít materiály ve zpracované podobě, a to buď již uvnitř výrobních strojů, nebo uložené poblíž.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page3</Key>
+      <Value>STRANA 3 z 5 \nDEMONTÁŽ\n\nPokud se Vám podaří najít nebo vyrobit úhlovou brusku, měli byste být schopni ji použít k demontáži některých vraků lodi.  Recyklátor je možné použít k jejich rozložení na směs složek a odstředivka je oddělí, aby je bylo možné znovu přetavit na použitelné materiály.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page4</Key>
+      <Value>STRANA 4 z 5 \nTěžba\n\nVelmi záleží na okolí, některá průzkumná plavidla byla vybavena základním těžebním zařízením.  Pokud budete mít štěstí a ocitnete se někde, kde je hojnost nerostných surovin, je to jistě schůdná možnost.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage2Page5</Key>
+      <Value>STRANA 5 z 5 \nTAVENÍ\n\nNejjednodušší způsob, jak přeměnit suroviny na zpracované ingoty připravené k výrobě, je použít obloukovou pec a dodat jí určitou energii.  Pokud máte omezené zdroje, měla by to být pravděpodobně vaše první investice, protože pokud se Vám nepodaří získat dostatek materiálů, bude to nakonec požadavek na zajištění další výroby.</Value>
+    </Record>
+    <!-- Mission Stage: Setup Manufacturing -->
+    <Record>
+      <Key>MarsTitleSetupManufacturing</Key>
+      <Value>Zajištění výrobních prostředků</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3</Key>
+      <Value>VÝROBA 101</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescSetupManufacturing</Key>
+      <Value>Abychom mohli vyrobit vše, co budeme potřebovat, měli bychom začít s {THING:ItemKitHydraulicPipeBender} a {THING:ItemKitElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureHPB</Key>
+      <Value>Vyrobte {THING:ItemKitHydraulicPipeBender}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskManufactureEP</Key>
+      <Value>Vyrobte {THING:ItemKitElectronicsPrinter}</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page1</Key>
+      <Value>STRANA 1 z 5\nZPRACOVÁNÍ \nPřestože je velmi pravděpodobné, že záchranné práce již probíhají, může nějakou dobu trvat, než se k vám dostanou.  Bylo by vhodné naplánovat delší pobyt.  Budete muset vytvořit základní výrobní infrastrukturu.  Přirozeným výchozím bodem je automatický soustruh, který vám umožní sestrojit další řemeslné stroje pro konkrétní úkoly.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page2</Key>
+      <Value>STRANA 2 z 5 \nNAPÁJENÍ PRO OSOBU \n\nDoufejme, že jste v této chvíli našli nějaké baterie a prostředky k jejich nabíjení.  Nejjednodušší způsob, jak napájet síť, je připojit baterie k řídicí jednotce napájení oblasti.  Pro zajištění energie, kterou budete potřebovat pro tavení a velkovýrobu, však budete potřebovat něco pohodlnějšího.  Nejlepší způsob řešení závisí na vaší situaci, ale mezi možnosti patří např;</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page3</Key>
+      <Value>STRANA 3 z 5 \nGENERÁTOR NA TUHÁ PALIVA \nTento generátor bude vyrábět energii spalováním fosilních uhlovodíků v pevné formě.  Sadu lze vyrobit v tiskárně elektroniky nebo ve fabrikátorech.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page4</Key>
+      <Value>STRANA 4 z 5 \nGENERÁTOR NA PLYN \nTím se získá energie ze spalování vznikajícího při zapálení směsi vodíku a kyslíku.  Čisté spalování bude mít za následek vyšší výkon, ale budete muset pečlivě řídit množství přiváděného paliva a pravděpodobně použít transformátor k omezení výkonu, jinak budete trpět přetíženými kabely.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage3Page5</Key>
+      <Value>STRANA 5 z 5 \nSOLÁRNÍ PANELY \nSolární panely.  Po umístění je třeba je doplnit skleněnou fólií - ale jakmile to uděláte, budou během dne generovat nominální množství energie.  Pomocí klíče můžete nastavit svislý a vodorovný úhel a pokusit se je nasměrovat ke slunci, ale z dlouhodobého hlediska byste se možná měli podívat na použití logického obvodu a senzoru denního světla, který by ho sledoval za vás.</Value>
+    </Record>
+    <!-- Mission Stage: Food Supply -->
+    <Record>
+      <Key>MarsTitleFoodSupply</Key>
+      <Value>Spolehlivý zdroj jídla</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4</Key>
+      <Value>ZAHRADNICKÁ PŘÍRUČKA</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescFoodSupply</Key>
+      <Value>Nevíme, jak dlouho tu budete muset přežít.  Pro jistotu bychom si měli připravit obnovitelný zdroj jídla.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskPrepareAtmos</Key>
+      <Value>Vytvořte přetlakovou místnost s dostatečnou atmosférou pro pěstování brambor.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskGrowPotato</Key>
+      <Value>Vypěstujte {THING:ItemPotato} do zralosti.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page1</Key>
+      <Value>STRANA 1 ze 2 \nMALÉ ZELENÉ PALCE\nNa pěstování plodin potřebujete minimálně hydroponickou vaničku nebo přenosnou hydroponii.  Ta bude muset být zásobena zdrojem vody a umístěna v atmosféře o tlaku alespoň ~20 kpa, teplotě kolem 20-25 stupňů Celsia a s malým množstvím oxidu uhličitého.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTabletStage4Page2</Key>
+      <Value>STRANA 2 z 2\nNejnáročnějším požadavkem je získat semena do začátku.  Každý únikový modul obsahuje zásobní bednu s nominálním množstvím semen do začátku - jejich ochrana je klíčová.  Pokud jste se od únikového modulu oddělili, můžete pomocí sledovací kazety sledovat maják modulu, pokud jej najdete.</Value>
+    </Record>
+    <!-- Mission Stage: Spawn Mothership & Engine -->
+    <Record>
+      <Key>MarsTitleCreateRocket</Key>
+      <Value>Vytvoření rakety</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescCreateRocket</Key>
+      <Value>Vytvořte raketu vytvořením {THING:StructureLaunchPad} a připojte k ní požadované moduly.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskBuildLaunchPad</Key>
+      <Value>Postavte raketovou odpalovací rampu</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskBuildEngine</Key>
+      <Value>Postavte raketový motor</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskBuildFuelTank</Key>
+      <Value>Postavte palivovou nádrž rakety</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskBuildCommand</Key>
+      <Value>Postavte velitelský modul rakety</Value>
+    </Record>
+    <Record>
+      <Key>MarsTitleLaunchRocket</Key>
+      <Value>Odpálení rakety</Value>
+    </Record>
+    <Record>
+      <Key>MarsDescLaunchRocket</Key>
+      <Value>Po natankování nově postavené rakety se můžete konečně vrátit do civilizace.</Value>
+    </Record>
+    <Record>
+      <Key>MarsTaskLaunchMothership</Key>
+      <Value>Odpalte raketu</Value>
+    </Record>
+  </Interface>
+</Language>

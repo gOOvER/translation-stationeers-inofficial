@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>TutoiralSmelting</Key>
+      <Value>Tavení slitin</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralSmeltingDescription</Key>
+      <!--This is the description that appers in the menu-->
+      <Value>Vylepšete své tavičské dovednosti a naučte se vytvářet kovové slitiny pro náročnější konstrukce.</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralAtmosphericsSubTitle</Key>
+      <Value>Praktický výcvik: Fáze V</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralSmleting</Key>
+      <Value>Tavení</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralSmletingSubTitle</Key>
+      <Value>Praktický výcvik: Fáze V</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralSmletingDescription</Key>
+      <Value>Vítejte, kadete. Velitelství Stationeerů je potěšeno tvými pokroky. Povolilo ti zvýšit si kvalifikaci. V této fázi vyzkoušíme tvé schopnosti tavení slitin, abyste mohli vytvářet pokročilejší konstrukce a zařízení.</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration1T</Key>
+      <Value>Tavení</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration1D</Key>
+      <Value>Do základny jste přidali mnoho zařízení a dochází vám energie. Mohla by vám pomoci baterie stanice, která vám umožní uložit přebytečnou energii pro použití na jiné časy. Ty vyžadují ocel, takže nejprve musíte postavit pec na tavení slitin.</Value>
+    </Record>
+    <Record>
+      <Key>4.5GetFurnace</Key>
+      <Value>Vezměte sadu pece z bedny</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildFurnace</Key>
+      <Value>Postavte pec na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5FinishFurnace</Key>
+      <Value>Dokončete stavění pece</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration2D</Key>
+      <Value>Pece produkují kovové ingoty, teplo a odpadní plyn. V příručce Stationeera se doporučuje zachycovat tento plyn pro jiné účely, ale vy na to zatím nejste připraveni. Takže ho budete muset odčerpat ven, abyste se neotrávili. To vám také později umožní vypustit vzduch z pece.</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPipe</Key>
+      <Value>Umístěte potrubí na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPipe</Key>
+      <Value>Vezměte potrubí z bedny</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpPassiveVent</Key>
+      <Value>Vezměte pasivní ventilaci z bedny</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPassiveVent</Key>
+      <Value>Umístěte ventilaci ven na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration3D</Key>
+      <Value>Řízení atmosféry na pustých skalách bez vzduchu je pro Stationeera práce na jeden den. Proto se hodí objemová čerpadla. Přidáte-li jedno do potrubní sítě, bude fungovat jako ventil, který udržuje tlak v peci, a umožní vám odstranit odpadní plyn, když skončíte s tavením.</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildPump</Key>
+      <Value>Umístěte objemové čerpadlo na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration4D</Key>
+      <Value>Zajímavost: nehody související s topením byly v loňském roce nejčastější příčinou úmrtí zaměstnanců společnosti Stationeer. Musíte neustále sledovat její tlak a teplotu, jinak může dojít k &quot;nepříjemnostem&quot;. Nastavte si vedle pece konzole, které vám budou tyto informace zobrazovat.</Value>
+    </Record>
+    <Record>
+      <Key>4.5PlaceConsole</Key>
+      <Value>Umístěte konzoli na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5PutGasCircuitInConsole</Key>
+      <Value>Přidejte obvodovou desku displeje plynu do nedokončené konzole</Value>
+    </Record>
+    <Record>
+      <Key>4.5Finishconsole</Key>
+      <Value>Dokončete konzoli skleněnou tabulí</Value>
+    </Record>
+    <Record>
+      <Key>4.5PutDataDiskInConsole</Key>
+      <Value>Vložte datový disk do bočního slotu konzole</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConsoleOn</Key>
+      <Value>Zapněte konzoli</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration5D</Key>
+      <Value>Chcete-li konzoli naprogramovat tak, aby zobrazovala teplotu pece, přepněte režim na &quot;Teplota&quot; kliknutím na nastavení, které je aktuálně přiřazeno k &quot;Tlak&quot;.</Value>
+    </Record>
+    <Record>
+      <Key>4.5ConfigureGasSensorTask</Key>
+      <Value>Nastavte konzolu do režimu &apos;Teploty&apos;</Value>
+    </Record>
+    <Record>
+      <Key>4,5ConfigureGasSensorTask1</Key>
+      <Value>Vyberte pec ze seznamu zařízení</Value>
+    </Record>
+    <Record>
+      <Key>4,5ConfigureGasSensorTask2</Key>
+      <Value>Nakonfigurujte druhou konzolu na &apos;Tlak&apos;</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration6D</Key>
+      <Value>Vynikající. Jste připraveni tavit jako nikdy předtím. Nahlédněte do Stationpedie a zjistěte, jak pec naplnit palivem.</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeBattery</Key>
+      <Value>Prohlédněte si stránku Stationpedie věnovanou sadě (baterie)</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration7D</Key>
+      <Value>Vynikající. Jste téměř připraveni tavit tak, jak jste ještě nikdy předtím netavili. Pece nejlépe fungují se stálým přívodem plynu, ale můžete je pohánět i palivovou směsí. Musíte být velmi opatrní, abyste přidávali přesně správné množství paliva. Recept na palivo a jeho poměry najdete ve Stationpedii.</Value>
+    </Record>
+    <Record>
+      <Key>4.5PediaNavigation1</Key>
+      <Value>Recept na palivo naleznete na stránce &apos;Pec&apos; v sekci Stationpedie</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration8D</Key>
+      <Value>ODA vás potřebuje co nejdříve ve službách Sluneční soustavy. Proto jsme vám nechali zásobu oxitu a těkavých látek, abychom to urychlili. Najdete je uložené v hornickém opasku v bedně.</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpMiningBelt</Key>
+      <Value>Vezměte hornický opasek z bedny</Value>
+    </Record>
+    <Record>
+      <Key>4.5EquiptMiningbelt</Key>
+      <Value>Vybavte se hornickým opaskem.</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration10D</Key>
+      <Value>Zdroje nejsou vždy k dispozici v přesném množství, které potřebujete, takže je musíte rozdělit. Led snadno praskne ve vašem silném sevření.</Value>
+    </Record>
+    <Record>
+      <Key>OpenOxiteMenu</Key>
+      <Value>Klikněte na oxitovou rudu</Value>
+    </Record>
+    <Record>
+      <Key>4.5SplitStack</Key>
+      <Value>Rozdělte oxitovou rudu na poloviny (6)</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration11D</Key>
+      <Value>Pojďme ji nahodit. Není to zrovna &quot;nejlepší postup&quot; ODA, ale přidávání rudy přímo do pece bude prozatím fungovat. Každý kus oxitu musíte zpracovat jednotlivě, a to tak, že několikrát stisknete tlačítko &quot;Aktivovat&quot;. Víko pece se otevře, jakmile je oxit plně zpracován.</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddOxitetoFurnace</Key>
+      <Value>Přidejte 6 oxitu do pece</Value>
+      <!--Change to match tutorial-->
+    </Record>
+    <Record>
+      <Key>4.5IgnitingTheFurnace</Key>
+      <Value>Zpracujte oxit: stiskněte tlačítko &quot;Aktivovat&quot;, dokud se neotevře víko</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddVolatilestoFurnace</Key>
+      <Value>Přidejte 12 těkavých látek do pece</Value>
+      <!--Change to match tutorial-->
+    </Record>
+    <Record>
+      <Key>4.5IgnitingTheFurnace</Key>
+      <Value>Zpracujte oxit: stiskněte tlačítko &quot;Aktivovat&quot;, dokud se neotevře víko</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration12D</Key>
+      <Value>V této místnosti není žádná atmosféra, takže není slyšet hukot pece - ale je. Připravte si tedy další ingredience: k vytištění baterie stanice je zapotřebí také měď a zlato. Rudy jsme ti nechali ve skříňce. Poznámka: vyšší teplota a tlak v peci z ní dělají stroj na rychlé tavení.</Value>
+    </Record>
+    <Record>
+      <Key>5AddCoppertoFurnace</Key>
+      <Value>Přidejte 50 měděné rudy do pece</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenFurnaceC</Key>
+      <Value>Po dokončení tavby zatáhněte za páku pece</Value>
+    </Record>
+    <Record>
+      <Key>4.5SmeltCopper</Key>
+      <Value>Počkejte, až se zataví měděný ingot</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration13D</Key>
+      <Value>Vynikající. Teď roztav zlatý ingot, ty vesmírný alchymisto.</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddGoldtoFurnace</Key>
+      <Value>Vložte 50 zlaté rudy do pece</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenFurnace</Key>
+      <Value>Vysuňte zlatý ingot</Value>
+    </Record>
+    <Record>
+      <Key>4.5SmeltGold</Key>
+      <Value>Počkejte, až se zataví zlatý slitek</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration14D</Key>
+      <Value>Pokud jste se dostali až sem, kadete, vaše šance na přežití v tomto testu je více než 50%. Ale pec si udržuje tlak, i když se ochladí. Pokud tedy nechcete, aby to bouchlo, vypusťte z pece vzduch, abyste ji resetovali.</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOnVolPump</Key>
+      <Value>Zapněte objemové čerpadlo pro vypouštění plynu</Value>
+    </Record>
+    <Record>
+      <Key>4.5VentingTheGases</Key>
+      <Value>Nechte tlak klesnout pod 99 kPa</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration15D</Key>
+      <Value>Nyní, když se tlak v peci snížil na bezpečnou úroveň, vypněte objemové čerpadlo a doplňte palivo do pece, aby se znovu rozběhla. Pokud potřebujete další rudu, je jí ve druhé skříňce více.</Value>
+    </Record>
+    <Record>
+      <Key>4.5VentingTheGases2</Key>
+      <Value>Znovu rozběhněte pec.</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration16D</Key>
+      <Value>Stejně jako u raket a plánování večírků je pro tavení slitin zásadní správné nastavení kompletních poměrů. Nahlédněte do Stationpedie a zjistěte nejlepší poměr železa a uhlíku pro tavení oceli, stejně jako vhodný tlak a teplotu.</Value>
+    </Record>
+    <Record>
+      <Key>4.5HowToMakeSteel</Key>
+      <Value>Podívejte se na stránku ingotu (ocel) ve Stationpedii</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration17D</Key>
+      <Value>Když do pece přidáte uhlík (uhlí) a železo ze skříně, pec začne automaticky tavit slitinu. Pokud železo vyhodíte před přidáním uhlí, jednoduše vyrobíte železný ingot.</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddIrontoFurnace</Key>
+      <Value>Přidejte 24 železa</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddCoaltoFurnace</Key>
+      <Value>Přidejte 8 uhlí</Value>
+    </Record>
+    <Record>
+      <Key>4.5SmeltSteel</Key>
+      <Value>Počkejte na dokončení roztavení ocelového ingotu</Value>
+    </Record>
+    <Record>
+      <Key>4.5PickUpSteel</Key>
+      <Value>Vysuňte a vezměte ocelový ingot</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration18D</Key>
+      <Value>Výborně, kadete. Nyní máte vše, co potřebujete k modernizaci svého napájecího systému pomocí baterie stanice. Vytiskněte sadu (baterie) pomocí tiskárny elektroniky.</Value>
+    </Record>
+    <Record>
+      <Key>4.5MakeStationBattery</Key>
+      <Value>Vytiskněte sadu (baterie)</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration19D</Key>
+      <Value>Vynikající. Baterie stanice umožňují ukládat přebytečnou energii, takže ji nemusíte neustále vyrábět. Umístěte je vedle ostatních baterií ve svém poli.</Value>
+    </Record>
+    <Record>
+      <Key>4.5BuildStationBattery</Key>
+      <Value>Umístěte sadu (baterie) na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration20D</Key>
+      <Value>Pro jistotu musí být baterie zapnuté, aby mohly být napájeny. Vypínač napájení baterie je na boku.</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnBattery</Key>
+      <Value>Zapněte baterii vypínačem na straně</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration21D</Key>
+      <Value>Už to skoro je! Zapněte regulátor napěťového okruhu bateriové sítě (APC), abyste ji propojili s hlavní napájecí sítí. APC izoluje bateriovou síť a zajišťuje stabilní a stálý tok energie do hlavní sítě.</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnAPC1</Key>
+      <Value>Zapněte bateriovou síť APC</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnAPC</Key>
+      <Value>Zapněte hlavní napájení APC</Value>
+    </Record>
+    <Record>
+      <Key>4.5Narration22D</Key>
+      <Value>Gratulujeme - energetický systém vaší základny je hotov! To je poslední krok praktického výcviku, fáze V.
+Stisknutím důležitého tlačítka &quot;Dokončit&quot; odešlete výsledky do velitelství Stationeerů.</Value>
+    </Record>
+    <Record>
+      <Key>4.5OnButtonPressTaskT1</Key>
+      <Value>Pro dokončení testu stiskněte důležité tlačítko</Value>
+    </Record>
+    <Record>
+      <Key>4.5AddCoppertoFurnace</Key>
+      <Value>Přidejte 50 měděné rudy do pece</Value>
+    </Record>
+    <Record>
+      <Key>4.5TurnOffVolPump</Key>
+      <Value>Vypněte objemové čerpadlo</Value>
+    </Record>
+    <Record>
+      <Key>4.5CloseFurnace</Key>
+      <Value>Zavřete pec uvolňovací pákou</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralSmeltingEndDescription</Key>
+      <Value>Výborná práce, kadete - zvládl jste základy tavení oceli.</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenMiningbelt</Key>
+      <Value>Otevřete hornický opasek</Value>
+    </Record>
+    <Record>
+      <Key>4.5PediaNavigationClose</Key>
+      <Value>Po přečtení zavřete Stationpedii</Value>
+    </Record>
+    <Record>
+      <Key>4.5RemoveDataDisk</Key>
+      <Value>Odeberte datový disk z konzole</Value>
+    </Record>
+    <Record>
+      <Key>4.5NarrationInsert1D</Key>
+      <Value>Váš měděný ingot je hotový. Zatáhněte za páku a vyjměte hotový ingot.</Value>
+    </Record>
+    <Record>
+      <Key>4.5NarrationInsert2D</Key>
+      <Value>Nyní zapněte hlavní elektrickou síť a ... nechť je tu světlo.</Value>
+    </Record>
+    <Record>
+      <Key>4.5OpenAPCTask</Key>
+      <Value>Otevřete hlavní napájecí síť APC</Value>
+    </Record>
+  </Interface>
+</Language>

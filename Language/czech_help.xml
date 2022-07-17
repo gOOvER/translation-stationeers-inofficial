@@ -1,0 +1,572 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>CartridgePage</Key>
+      <Title>Kazety</Title>
+      <Text>Lze je přidat do {THING:ItemTablet} nebo {THING:ItemAdvancedTablet} a provádět tak různé diagnostické funkce.
+{LIST_OF_CARTRIDGES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabrikátory</Title>
+      <Text>Jedná se o poháněné struktury, které lze použít k výrobě věcí, které ve hře potřebujete. Obvykle odebírají {LINK:IngotPage;ingoty}, které poskytují {LINK:ReagentPage;činidla}, které potřebují k výrobě věcí.
+        {LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Zařízení</Title>
+      <Text>Jedná se o struktury, obvykle s napájením, které mají specializované funkce včetně logiky, atmosféry a dalších. Jsou konstruovány stejným způsobem jako ostatní struktury.
+  {LIST_OF_DEVICES}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Import/export a šachty</Title>
+      <Text>Jedná se o struktury, obvykle napájené, které jsou schopny přijímat a vysílat jiné předměty nebo tomu napomáhat. Většina z nich má specializované funkce včetně {LINK:LogicUnitPage;logiky}, {LINK:AtmosphericPage;atmosfériky} a dalších. Jsou konstruovány stejným způsobem jako ostatní struktury.
+  {LIST_OF_IMPORTEXPORT}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <Title>Tavení</Title>
+      <Text>Jakmile získáte {LINK:OrePage;rudu}, musíte ji přeměnit na {LINK:IngotPage;ingoty}, abyste mohli použít jejich {LINK:ReagentPage;činidla}. Při tavení často vznikají {LINK:GasPage;plyny}. K tomu dochází buď v {THING:StructureArcFurnace} (pro jednoduché recepty) a {THING:StructureFurnace} pro složitější {LINK:AlloyPage;slitiny}, a konečně {THING:StructureAdvancedFurnace} pro velmi složité {LINK:SuperAlloyPage;superslitiny}. U složitých slitin budete muset dosáhnout směsí v dokonalých poměrech, {LINK:TemperaturePage;teploty} a {LINK:PressurePage;tlaku}. 
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <Title>Těžba</Title>
+      <Text>Můžete těžit {LINK:OrePage;rudu} pomocí {THING:ItemMiningDrill}. Pokud máte na sobě {THING:ItemMiningBelt}, {LINK:OrePage;ruda} se do něj automaticky umístí.
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TradingPage</Key>
+      <Title>Obchodování</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Obchodování je nezbytnou součástí existence &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeerů}&lt;/color&gt; , zejména na extrémnějších světech, kde mohou mít noví kadeti zpočátku problém přežít bez pomoci.
+
+{HEADER:Začátek}
+
+Chcete-li kontaktovat obchodníka, musíte si vytvořit komunikační systém. To vyžaduje následující:
+
+- Napájený {THING:StructureVendingMachine}, který bude sloužit k ukládání a obchodování s předměty.
+- funkční {THING:StructureSatelliteDish} k vyhledávání a identifikaci potenciálních obchodníků.
+- Fungující {THING:StructureComputer} se spuštěnou {THING:MotherboardComms}.
+- Napájený {THING:StructureShuttleLandingPad}, na kterém může obchodník přistát.
+
+Po spuštění systému se na terminálu počítače zobrazí prázdná obrazovka. Upravte polohu satelitní antény, dokud nezaregistruje jednoho nebo více obchodníků. Ti se objeví na obrazovce s hodnocením od 1 do 100 %. To je síla vašeho signálu. Obchodníka lze vyvolat pouze tehdy, když je síla signálu vyšší než 95 %. Jakmile je obchodník kontaktován, následně uvede své jméno. Různí obchodníci poskytují různé kategorie položek.
+
+{HEADER:Obchodníci}
+
+Elektronika  TechTree Electronics
+Organické látky  Organicon
+Základní  Spes&apos;mall Basics
+Hydraulika  HydrauliKit
+Rudy  MineRiteOres
+Mikrovlny  Microwares
+Chemie  ChemLab
+Exotika  ExoTech
+Barvy  Color Corp Paints
+Nástroje  Tool Corp
+Bezpečnost  Hall Corp Security
+Ostatní  Kolders&apos; Assorted Goods
+Plyn  GasTrade
+Zakázky  Spes&apos;mall
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Konstrukce</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER}:Začátek}
+Obvykle použijete {LINK:KitPage;sady} k zahájení stavby a poté různé {LINK:ToolPage;nástroje} a {LINK:ResourcePage;zdroje} k dokončení. Dávejte dobrý pozor na to, kolik sad je potřeba ke stavbě toho, co jste si vybrali, protože některé sady vyžadují spotřebování více než jedné z nich. U některých sad budete mít k dispozici více možností, pomocí {COLORRED:rolovacího kolečka} změňte aktuální možnost, kterou chcete postavit.
+
+{HEADER:Stavy stavby}
+Některé stavby budou mít více stavů sestavení, které vyžadují k dokončení různé kombinace. Nápověda vás bude informovat o tom, jakou kombinaci potřebujete k dokončení stavby. Někdy budete k dokončení stavu stavby potřebovat dva předměty, v každé ruce jeden. Některé nástroje bude třeba nejprve zapnout, což lze provést stisknutím {KEY:ToggleHandPower}, když je máte v aktivní ruce.
+
+{HEADER:Popisky}
+Pokud se podíváte přímo na nedokončenou konstrukci, zobrazí se informace o tom, co je třeba udělat pro její dokončení. Pokud máš v ruce {LINK:ToolPage;nástroj} a není to ten správný {LINK:ToolPage;nástroj}, zobrazí se nápověda, která ti řekne, co bys musel použít, abys ji rozložil.
+
+{HEADER:Tlak}
+Při stavbě je důležité si uvědomit, že tlak se měří jako diferenciál. Většina konstrukcí má limit tlaku 200 kPa: pokud je rozdíl mezi vnitřkem a vnějškem větší než tato hodnota, máte problémy.
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Činidla</Title>
+      <Text>Jedná se o chemická množství určitých typů. 
+  {LIST_OF_REAGENTS}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MusicPage</Key>
+      <Title>Tvorba hudby</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>&lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; neschvaluje zvukové stopy ani jiné rušivé prvky.
+Proto si &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeerové}&lt;/color&gt; museli vytvořit vlastní hudební doprovod k náročné práci při budování a údržbě mimozemské infrastruktury.
+Ústředním prvkem této zábavy je krokový sekvencer, který Stationeerům umožňuje sekvencovat krátké hudební vzory nebo smyčky. 
+
+{HEADER:DIY HUDBA - ZAČÁTEK}
+
+1: Připojte 8 {THING:DeviceStepUnit} k vašemu krokovému sekvenceru prostřednictvím datového portu na levé straně. 
+
+2: Označte každou krokovou jednotku a poté přiřaďte krokové jednotky 1 až 8 na krokovém sekvenceru pomocí šroubováku.
+
+3: Vyberte výstupní reproduktor (např. {THING:PassiveSpeaker}), na kterém bude sekvencer přehrávat zvuky. Ten musí být připojen k logické síti na pravé straně sekvenceru.
+
+4: Umístěte {THING:StopWatch} a pomocí {THING:StructureLogicReader} a {THING:StructureLogicWriter} zapište čas do proměnné čas na sekvenceru.
+
+5: Nastavte BPM na sekvenceru pomocí {THING:StructureLogicDial} a {THING:StructureLogicWriter} pro zápis do proměnné BPM sekvenceru. Vyšší bpm přehraje sekvenci rychleji. 
+
+6: Vložte zvukovou kazetu podle vlastního výběru a stisknutím tlačítek se šipkami umístěných nad a pod slotem pro zvukovou kazetu vyberte, kterou variantu zvuku chcete přehrát.
+
+7: Zvolte výšku přehrávaných zvuků nastavením voliče na každé z 8 krokových jednotek na požadovaný tón. U bicích představuje každá nota jiný zvuk bubnu. Zvuky si můžete vyzkoušet stisknutím tlačítka aktivace na každé krokové jednotce (při neaktivním sekvenceru).
+
+8: Udělejte si legraci s {THING:DeviceLfoVolume}.
+
+9: Nakonec aktivujte sekvencer Vibeoneer.
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TemperatureControlPage</Key>
+      <Title>Regulace teploty</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Abychom mohli regulovat teplotu systému, musíme do něj buď přidávat teplo, a tím zvyšovat jeho teplotu, nebo z něj odebírat teplo, a tím ho ochlazovat, to je základní myšlenka regulace teploty. Zařízení, která tohoto cíle dosahují, jsou {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator} a {THING:StructureAirConditioner}.
+
+POZNÁMKA: Existuje mnoho způsobů regulace teploty. Některé nezahrnují žádné z uvedených zařízení. Zde se zabýváme základními způsoby. 
+
+Před instalací jakéhokoli typu regulace teploty je důležité znát své prostředí. Objem plynu nebo kapaliny je důležitým faktorem při výběru metody regulace teploty. Nádrž {THING:StructureTankSmall} pojme až 6000 l, zatímco nádrž {THING:StructureTankBig} až 50 000 l. To znamená, že pokud jsou obě plné, malá nádrž bude na změny teploty reagovat rychleji. Místnost je prostor, který pojme určité množství plynu. Čím je větší, tím větší objem pojme, takže pro nádrže a místnosti obecně platí stejná pravidla.
+
+{HEADER:POTRUBNÍ SÍTĚ}
+Potrubní síť je jeden nebo více segmentů potrubí vzájemně propojených bez oddělení v jakémkoli bodě. Potrubní síť sdílí stejnou atmosféru všude podél potrubí bez ohledu na jeho velikost. Pokud změníte teplotu nebo tlak na jednom konci sítě, na nejvzdálenějším konci se stejná změna projeví okamžitě a bez zpoždění.
+
+Přidáním zařízení do sítě může dojít k jejímu rozdělení na dvě různé sítě. Například přidání zařízení {THING:StructureVolumePump} do sítě potrubí rozdělí síť na dvě sítě: jednu před čerpadlem a druhou za ním.
+
+Pomocí {THING:ItemTablet} s nainstalovaným {THING:CartridgeAtmosAnalyser} můžete zobrazit informace o obsahu libovolné potrubní sítě.
+
+{HEADER:RADIÁTORY}
+Vyrobený v ohýbačce trubek, {THING:StructurePipeRadiator} vám pomůže vyměňovat teplo mezi trubkami a jejich okolím. Fungují jak na izolovaných trubkách, tak na potrubích a mají i kapalinové varianty. 
+
+Za normálních podmínek si segment potrubí vyměňuje teplo s okolním prostředím, ale přidáním radiátoru k tomuto segmentu potrubí se tento proces značně urychlí. Segment potrubí si bude vyměňovat teplo s okolním prostředím, dokud se teplota obou nevyrovná.
+
+{HEADER:PASIVNÍ CHLAZENÍ}
+Pomocí {THING:StructurePipeRadiator} můžete ochlazovat nebo ohřívat libovolné prostředí a vyměňovat tak teplo mezi dvěma atmosférami. Příkladem může být umístění trubky na stěnu, její naplnění plynem a umístění radiátorů na trubku. Nyní si budou obě atmosféry potrubí a místnosti vyměňovat teplotu, dokud se jejich prostředí nevyrovnají.
+
+{HEADER:NÁSTĚNNÉ TOPENÍ}
+{THING:ItemWallHeater} je jednoduché zařízení, které lze nainstalovat na stěnu nebo rám a připojit k napájení. Po zapnutí začne ohřívat okolní prostředí. Spotřebovává 1010 W energie a může být řízeno logickými čipy, aby se spustilo, když teplota dosáhne určité úrovně.
+
+{HEADER:NÁSTĚNNÝ CHLADIČ}
+{THING:ItemWallCooler} doplňuje nástěnné topení, které může pouze zvyšovat teplotu. Nástěnný chladič funguje tak, že odebírá teplo z okolní atmosféry a dodává toto teplo do své potrubní sítě. Abyste mohli nástěnný chladič správně provozovat, budete muset k nástěnnému chladiči připojit potrubí a připojenou síť potrubí naplnit libovolným typem plynu. Tepelná kapacita a objem plynu určí, jak rychle bude reagovat na změny teploty. 
+
+Čím vyšší je rozdíl teplot mezi plynem uloženým v potrubí a místností, tím méně účinný bude nástěnný chladič. Abyste tedy udrželi nástěnný chladič v provozu s přijatelnou účinností, budete se muset zbavit tepla, které se akumuluje v připojených trubkách. Běžnou praxí je vyvést potrubí ven a použít radiátory na vnější části potrubí, abyste se tepla zbavili.
+
+Čím je nástěnný chladič méně účinný, tím méně energie spotřebuje. Při maximální účinnosti bude spotřebovávat 1010 W. Chladič na stěně lze řídit pomocí logických čipů tak, aby se spustil, když teplota dosáhne určitého stupně.
+
+Pokud nástěnný chladič bliká chybou, pak mu chybí jeden z následujících údajů:
+- Připojení potrubí k nástěnnému chladiči.
+- Plyn v připojeném potrubí nebo příliš nízký tlak.
+- Atmosféra v okolním prostředí nebo je příliš nízký tlak.
+
+{HEADER:KLIMATIZACE}
+{THING:StructureAirConditioner} ve své základní podobě funguje stejně jako nástěnný chladič a může využívat stejné konstrukce. Je však výkonnější. Chladí rychleji a v závislosti na situaci spotřebuje podstatně více energie, takže je vhodnější pro řešení velkých objemů a velkých ploch. V závislosti na nastavení může ohřívat nebo chladit.
+
+KLIMATIZACE: JAK FUNGUJE
+Klimatizace má 3 potrubní přípojky (vstupní, výstupní, odpadní). Plyn přichází vstupní stranou, poté se v závislosti na nastavení přidává nebo odebírá teplo z příchozího plynu a přidává se do odpadního potrubí. Výstupní plyn pak vychází výstupní přípojkou, v závislosti na nastavení chladnější nebo teplejší.
+Vstupní potrubí můžete propojit s výstupním potrubím (zda jsou propojena, zjistíte, pokud mají obě stejné číslo sítě): tím získáte větší kontrolu nad teplotou, protože plyn nedosáhne cílové teploty po prvním průchodu. Odebrání nebo přidání tepla z jakéhokoli plynu zabere čas a energii.
+
+Způsob instalace a nastavení klimatizace závisí na tom, co se snažíte ochladit nebo ohřát. Pro místnost budete potřebovat pasivní ventilaci uvnitř místnosti připojenou ke vstupu a výstupu klimatizace, zatímco odpadní potrubí musí být naplněno chladicím plynem. 
+
+Klimatizační zařízení nemusí být uvnitř místnosti. Jediná část této sestavy, která musí být v místnosti, je pasivní ventilační otvor, který bude obíhat atmosféru místnosti do klimatizátoru, aby se ochladila nebo ohřála. 
+
+Jednu klimatizaci můžete použít k vytápění i chlazení. Stačí změnit nastavení cílové teploty na panelu. Pokud však chcete automatizovat chlazení a vytápění současně, budete potřebovat jednu klimatizaci pro chlazení a druhou pro vytápění, protože nastavení na panelu lze měnit pouze ručně. 
+
+Nastavení více než jedné klimatizace na stejné potrubní síti může být užitečné, pokud potřebujete, aby vše probíhalo rychleji, nebo pokud potřebujete některé použít pro vytápění a jiné pro chlazení. Udělejte to tak, že propojíte vstupy a výstupy klimatizací dohromady a všechny budou sdílet stejnou potrubní síť pro své vstupy a výstupy. Odpadní potrubní síť může být mezi nimi také společná, ale musí být oddělena od vstupní/výstupní potrubní sítě. Stejná myšlenka platí při použití klimatizace k regulaci teploty nádrží. Místo pasivního odvzdušnění však musíte nádrž připojit přímo ke klimatizační jednotce.
+
+KLIMATIZACE: MĚJTE NA PAMĚTI
+- Čím větší je rozdíl teplot mezi vstupním a odpadním potrubím, tím více energie klimatizace spotřebuje
+- Příkon spotřebovaný klimatizací může přesáhnout 5 kW, proto se doporučuje používat k napájení klimatizace těžké kabely.
+- Vedení odpadního potrubí ven a jeho vyrovnávání s venkovní atmosférou není vždy nejlepší volbou: plyn, který do něj vložíte, se může uplatnit na jiném místě vaší základny.
+
+KLIMATIZACE: REGULACE TEPLOTY NA ZÁKLADNĚ
+Existuje mnoho způsobů, jak regulovat teplotu základny pomocí klimatizace - toto je jeden ze způsobů, jak tohoto cíle dosáhnout:
+Krok 1: Rozveďte kolem základny síť jednoho potrubí a do každé místnosti, kterou chcete tímto nastavením řídit, nainstalujte pasivní ventilační otvory napojené na toto potrubí. Toto je &quot;síť A&quot;
+Krok 2: Připojte &quot;síť A&quot; ke vstupu a výstupu klimatizačního zařízení.
+Krok 3: Připojte odpadní potrubí k jiné síti a vyveďte ho ven. Na tuto síť nainstalujte radiátory.
+Toto je základní nastavení. Pro automatizaci budete potřebovat analyzátor potrubí na síti A, pak odečtete teplotu a podle toho spustíte klimatizaci (klimatizace).
+Hodně štěstí, kadete!
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPage</Key>
+      <Title>Plyny</Title>
+      <Text>Jedná se o chemické plyny určitých typů.{LIST_OF_GASES}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrePage</Key>
+      <Title>Rudy</Title>
+      <Text>Jedná se o předměty, které se {LINK:MiningPage;těží} a často je lze {LINK:SmeltingPage;tavit}. Směsnou rudu můžete také získat recyklací předmětů v {THING:StructureRecycler} a následným průchodem přes {THING:StructureCentrifuge}, která ji rozbije na {LINK:OrePage;rudu} pro {LINK:SmeltingPage;tavení}.
+  Existují rudy, které se po vystavení slunečnímu záření nebo teplu roztaví a vytvoří {LINK:GasPage;plyny}. Například {THING:ItemIce} se roztaví na {GAS:Water} a {GAS:Oxygen}. Dávejte pozor, abyste je uchovávali mimo dosah tepla nebo slunečního světla, dokud je skutečně nechcete roztavit.{LIST_OF_ORES}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IngotPage</Key>
+      <Title>Ingoty</Title>
+      <Text>Jedná se o předměty, které se obvykle vyrábějí z {LINK:SmeltingPage;tavení} {LINK:OrePage;rudy} pro použití ve {LINK:FabricatorPage;fabrikátorech}.
+
+{LIST_OF_INGOTS}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ToolPage</Key>
+      <Title>Nástroje</Title>
+      <Text>Jedná se o předměty, které se vejdou do slotu pro specializované nástroje a používají se pro {LINK:ConstructionPage;konstrukce} a další úkoly.
+
+{LIST_OF_TOOLS}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ResourcePage</Key>
+      <Title>Zdroje</Title>
+      <Text>Jedná se o položky, které se spotřebovávají během {LINK:ConstructionPage;konstrukce} a dalších úkolů.
+{LIST_OF_RESOURCES}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>KitPage</Key>
+      <Title>Sady</Title>
+      <Text>Jedná se o položky, které se spotřebovávají během {LINK:ConstructionPage;konstrukce} a dalších úkolů.
+{LIST_OF_KITS}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AutomatedRocketPage</Key>
+      <Title>Automatizované raketové moduly (A.R.M.)</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Automatické rakety jsou vozidla bez posádky, která lze vyslat mimo Zemi, aby získala různé zdroje. Rakety mohou být řízeny &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logikou}&lt;/color&gt; nebo &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;IC}&lt;/color&gt; nebo kombinací těchto systémů.
+  
+Po vypuštění automatické rakety vyhledávají planety nebo asteroidy s těžitelnými surovinami, podle toho, s jakými MODULY byly zkonstruovány. Rakety mohou být naprogramovány tak, aby vytěžily všechny dostupné zdroje a poté se přesunuly na jinou planetu nebo se vrátily domů. Jejich dolet - a tedy i množství surovin, které mohou nasbírat - je určen dostupným palivem. Pokud jim palivo dojde, jsou navždy ztraceny v prázdnotě.
+  
+
+{HEADER:MODULY}
+Automatizovaný raketový systém se skládá ze čtyř základních modulů a motoru a palivové nádrže (nádrží):
+
+* MODUL AUTOMATIZACE -{THING:StructureModularRocketAutomation} je řídicí systém, který předává data jednotlivým modulům.
+
+* MODUL TĚŽBY - provádí těžební operace. V současnosti jsou to {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} a {THING:StructureModularRocketGasMining}.
+
+* SPOJKA - spojuje těžební moduly se skladovacími moduly tím, že předává materiál z jednoho do druhého. Konkrétně {THING:StructureModularRocketCouplingDown} předává suroviny do úložného modulu, který se nachází POD ním. Modul {THING:StructureModularRocketCouplingUp} předává zdroje úložnému modulu NAD ním. Bez tohoto prvku nebude raketa shromažďovat prostředky.
+
+* SKLADOVACÍ MODUL - tento modul přijímá suroviny z těžebního modulu prostřednictvím spojky a ukládá je, dokud se raketa nevrátí. V současné době sem patří {THING:StructureRocketModuleSilo} pro rudy a {THING:StructureModularRocketFueltank01} pro plyn. Skladovací moduly mohou být připojeny k &lt;color=#0080FFFF&gt;{LINK:ImportExportPage;síťi šachet}&lt;/color&gt;, ale ve výchozím nastavení jsou uzavřené. Pomocí &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logiky}&lt;/color&gt; je nastavte na &quot;otevřené&quot;.
+
+
+{HEADER:PODMÍNKY ODPALU}
+* NAPÁJENÍ - všechny moduly rakety musí být napájeny. Všimněte si, že moduly jsou ve výchozím nastavení vytvořeny jako &apos;zapnuté&apos;, ale lze je vypnout a zapnout pomocí &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;logiky}&lt;/color&gt; spojení.
+
+* PALIVO - raketa musí mít alespoň jednu palivovou nádrž a dostatek paliva pro vzlet (alespoň 500 mols). Všimněte si, že raketa potřebuje také 500 mols na přistání A spotřebuje 5 mols za tiknutí během cestovní fáze provozu.
+
+* KONSTRUKCE - Raketa musí být správně sestavena (viz výše MODULY)
+
+* PROGRAMOVÁNÍ - Raketa se ovládá pomocí &lt;color=#0080FFFF&gt;{LINK:LogicUnitPage;IC systému}&lt;/color&gt; (viz níže)
+
+
+{HEADER:RAKETOVÉ MODULY}¶
+Režim rakety se nastavuje prostřednictvím hodnoty &apos;aktivovat&apos; zařízení. Režim určuje aktuální chování:
+
+0: Nečinnost (na základně)
+1: Odpálení
+2: Cestování
+3: Přílet
+4: Nečinný v cíli (připraven k aktivaci těžebních modulů).
+5: Návrat domů
+6: Vrácen
+7: Ztracen
+
+{HEADER:UNIKÁTNÍ RAKETOVÉ PŘÍKAZY}
+* ZŮSTATEK PALIVA V NÁDRŽI - Zjistí zbývající palivo v palivové nádrži rakety.
+* NÁKLADY PALIVA NA NÁVRAT - Zjistí náklady na palivo pro návrat rakety do aktuálního světa.
+* REŽIM RAKETY - Získá aktuální hodnotu režimu rakety (0-7).
+* SBÍRATELNÉ ZDROJE - Vrací hodnotu 0 nebo 1 podle toho, zda má aktuální raketový systém možnost sbírat zdroje na planetě.
+
+
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FoodPage</Key>
+      <Title>Jídlo</Title>
+      <Text>Jedná se o položky, které se konzumují za účelem zajištění výživy.
+  {LIST_OF_FOOD}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ClothingPage</Key>
+      <Title>Oblečení</Title>
+      <Text>Jedná se o předměty, které mohou nosit entity ve slotech.
+{LIST_OF_CLOTHING}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AppliancePage</Key>
+      <Title>Spotřebiče</Title>
+      <Text>Jedná se o položky, které lze umístit na lavičky. Musíte je umístit na lavičku tak, že je posadíte na lavičku a použijete hasák.
+{LIST_OF_APPLIANCES}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>TravelPage</Key>
+      <Title>Cestování na jiné planety</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Počkejte! Ještě mě nezavírejte! Pro odpálení musí být splněny následující podmínky:
+
+- Plně sestavená raketa: alespoň 3 základní moduly
+- Plně natankovaná {THING:StructureModularRocketFueltank01}
+- Správný poměr palivové směsi - směs 2:1 {GAS:Volatiles} a {GAS:Oxygen}.
+- Napájení {THING:StructureLaunchPad}
+- Všichni hráči sedí v {THING:StructureModularRocketCommand01}
+
+Níže jsou uvedeny ID VESMÍRNÉHO CESTOVÁNÍ. Můžete je použít k cestování na konkrétní planety, pokud je zkombinujete s dokončeným {LINK:RocketShuttlePage;raketoplánem} a {LINK:LogicUnitPage;logickými jednotkami}.
+  
+Jednoduše zapište hash do proměnného nastavení na {KING:StructureLaunchPad} pomocí {KING:StructureLogicWriter} a {KING:StructureLogicMemory}. Poznámka: Kliknutím na hash jej můžete zkopírovat do schránky.
+  
+
+  {LIST}
+  {WORLD_HASHES}
+  {/LIST}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Moduly raketoplánu</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:Modulární raketový náklad}
+
+{THING:StructureModularRocketCargo01} má kapacitu pro dvě desetislotové bedny. Na raketě můžete mít více nákladních modulů. Raketa může vynést celkem až sedm modulů.
+
+{HEADER:Raketový velitelský modul}
+
+Příkaz {THING:StructureModularRocketCommand01} musí být umístěn na vrcholu rakety. Vyhodnotí připravenost rakety k letu. Jakmile jsou splněny všechny podmínky, může být raketa odpálena, když všichni hráči sedí v modulu, stisknutím tlačítka &quot;ODPÁLIT&quot; na konzoli.
+
+Pro start musí být splněny následující podmínky:
+
+Plné palivo
+správný poměr palivové směsi
+Všichni hráči sedí na svých místech
+napájení odpalovací rampy
+Plně postavená raketa
+
+Konzole {THING:StructureModularRocketCommand01} zobrazuje aktuální stav těchto podmínek. Ke startu není potřeba atmosféra - atmosféra vašeho skafandru je dostačující.
+
+{HEADER:Modulární raketový motor}
+
+{THING:StructureModularRocketEngine01} je schopen vynést až sedm modulů (včetně sebe sama).
+
+{HEADER:Modulární raketová palivová nádrž}
+
+{THING:StructureModularRocketFueltank01} vyžaduje směs 2:1 {GAS:Volatiles} a {GAS:Oxygen}. Pokud směs překročí tyto poměry nebo do nádrže umístíte jiné plyny, konzole {THING:StructureModularRocketCommand01} zobrazí chybu &quot; Neplatné&quot;.
+
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Raketoplán</Title>
+      <Text>Jedná se o raketoplánové moduly, které se používají k cestování mezi světy. {THING:StructureLaunchPad} je vyžadována.
+{HEADER:Seznam modulů raketoplánu}
+{LIST_OF_ROCKET_SHUTTLE}
+  </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>WeatherPage</Key>
+      <Title>Počasí</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Planety sluneční soustavy nejsou tak klidné, jak by se mohlo zdát. Po sedmi dnech strávených na jakémkoli světě s atmosférou se nevyzpytatelné přírodní síly dají do pohybu a zasáhnou neopatrné Stationeery sněhovými bouřemi, písečnými bouřemi a vulkanickými událostmi.
+Proto ODA doporučuje, aby si čerstvě vyslaní Stationeeři do sedmi dnů od přistání vytvořili neprodyšnou základnu.
+Jakékoli dynamické předměty ponechané venku v bouři - na Marsu, Loulanu, Vulkánu nebo Europě - riskují, že je odnese daleko, daleko, včetně vašeho přistávacího modulu.
+Stejně tak mějte na paměti, že solární panely jsou křehké a jejich sklo se může rozbít, případně je může zničit dostatečně silná bouře. Během bouře se také drasticky sníží jejich výkon.
+  </Text>
+    </StationpediaPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:Všeobecné}
+{LIST}Prefabrikovaný hash {POS:300}{1}
+Malovatelné {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Tepelné limity}
+{LIST}Rozbití {POS:300}{0}
+Bod vzplanutí {POS:300}{1}
+Samovznícení {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Typ {2}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Připojuje se k {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Teplota tání {1}
+Tlak taveniny {0}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ReagentPageTemplate</Key>
+      <Text>{LINK:ReagentPage;Činidlo}, často použitelné ve formě {LINK:IngotPage;ingotů}.
+
+
+{LIST}Jednotka {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageTemplate</Key>
+      <Text>{LINK:GasPage;Plyn}, často vznikající při {LINK:SmeltingPage;tavení}.
+
+
+{LIST}Specifické teplo {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>GasPageFlamableTemplate</Key>
+      <Text>Zápalný limit {0} až {1}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>NutritionPage</Key>
+      <Title>Hlad a výživa</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:HLAD}
+
+Stationeerové nakonec dostanou hlad, ale ne každé jídlo je stejné. Míra hladu se také liší v závislosti na nastavení a obtížnosti. Při jídle spotřebujete pouze tu část předmětu, která je adekvátní k obnovení vašeho hladu na 100 %.
+
+Stationeerové po příletu na nový svět obdrží ve svém přistávacím modulu zásoby jídla, například &lt;color=#0080FFFF&gt;{LINK:Agrizero;Agrizero}&lt;/color&gt; {THING:ItemCerealBar}. Po jejich vyčerpání je třeba najít nové zdroje potravy - například vypěstovat si vlastní, z dodaných semen, nebo kontaktovat {LINK:TradingPage;obchodníka}. 
+
+
+{HEADER:VÝŽIVA}
+
+Pojídání surovin uspokojí hlad méně než jídlo, tj. nahradí menší část vašeho hladu. Základní složky potravy se vytvářejí pomocí &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponických}&lt;/color&gt; systémů. Ty mohou být zpracovány na složky receptů pomocí {THING:ApplianceReagentProcessor} a poté přeměněny na jídla pomocí {THING:ApplianceMicrowave} nebo {THING:StructureAutomatedOven}.
+
+Míru hladu si můžete upravit v hlavní nabídce nastavení nastavením posuvníku Míra hladu/hydratace v nastavení. Všimněte si, že posuvník hladu řídí také vaši {LINK:HydrationPage;žízeň}.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FarmingPage</Key>
+      <Title>Pěstování potravin</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Pro přežití na cizích světech &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; očekává, že si všichni &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeeři}&lt;/color&gt; zřídí životaschopné &lt;color=#0080FFFF&gt;{LINK:OrganicPage;hydroponické}&lt;/color&gt; systémy nebo se obrátí na registrované místní surovinové {LINK:TradingPage;obchodníky}.
+
+{HEADER:ZÁKLÁDÁNÍ}
+
+Při zakládání hydroponického systému budete potřebovat &lt;color=#0080FFFF&gt;{LINK:OrganicPage;semena}&lt;/color&gt;. Případně můžete vysadit samotné potraviny.
+
+Mezi běžné hydroponické vybavení Stationeerů patří:
+
+- {THING:DynamicHydroponics}
+- {THING:ItemHydroponicTray}
+- {THING:ItemKitHydroponicStation}
+- {THING:StructureHarvie}
+
+Všechny hydroponické systémy vyžadují vodu, sluneční světlo a správnou směs plynů - rostliny potřebují CO2 a produkují kyslík (s výjimkou {THING:ItemAlienMushroom}). Rostliny nebudou růst ve špatné atmosféře. Pokud rostliny nemají dostatek světla, budete muset postavit {THING:StructureGrowLight}.
+
+Váš systém bude záviset na dostupných zdrojích a čase, ale dobře navržený systém pěstování může být při dostatku času a zdrojů téměř plně automatizovaný.
+
+{HEADER:SKLÍZENÍ}
+
+Většina rostlin má několik růstových fází. V prvních fázích rostlina prochází svým životním cyklem. Během třetí fáze lze z rostliny sklízet semena. Ve čtvrté fázi rostlina přinese plody. Poté, pokud není vyčištěna, rostlina odumře.
+
+{HEADER:HNOJIVO}
+
+Hnojivo mění růstové procesy rostlin a je vytvářeno pomocí {THING:PortableComposter} a {THING:StructureAdvancedComposter} pomocí &lt;color=#0080FFFF&gt;{LINK:OrganicPage;organické}&lt;/color&gt; hmoty.
+
+Účinky hnojiva závisí na jeho složkách:
+
+- &lt;color=#0080FFFF&gt;{LINK:OrganicPage; Jídlo}&lt;/color&gt; zvyšuje individuální VÝNOS ROSTLIN až o 3 položky
+- {THING:DecayedFood} zvyšuje RYCHLOST RŮSTU rostlin až 3krát
+- {THING:ItemBiomass} zvyšuje POČET RŮSTOVÝCH CYKLŮ, po které hnojivo vydrží, na maximálně 5
+
+Účinek těchto složek závisí na jejich poměru v kompostéru při aktivaci zpracování. Hnojivo se vyrábí v poměru 1:3 mezi hnojivem a složkami. Při zpracování se uvolňuje {THING:Nitrogen} a {THING:Volatiles} a také malé množství tepla.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DecayPage</Key>
+      <Title>Rozklad potravin</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Potraviny se v průběhu času rozkládají na {THING:DecayedFood}, pokud nejsou uchovávány v chladné stabilní atmosféře. Přesná rychlost rozkladu se individuálně liší podle:
+
+- TEPLOTY - Chlazení zpomalí rozklad, ale mnoho potravin se poškodí vystavením extrémně nízkému tlaku a také extrémnímu teplu. Optimální teplota je 0 kelvinů (-272 C).
+
+- TYPU POTRAVINY - Každé &lt;color=#0080FFFF&gt;{LINK:OrganicPage;jídlo}&lt;/color&gt; má své vlastní vlastnosti rozkladu. Například {THING:ItemTomatoSoup} vydrží mnohem déle než {THING:ItemTomato}.
+
+- TLAKU - Potraviny se rozkládají rychleji, když tlak klesne pod 1 atmosféru (101 kPa). Rozklad probíhá exponenciálně rychleji, jak se atmosféra blíží dokonalému vakuu. Vyšší tlaky nemají žádný vliv. 
+
+- ATMOSFÉRY - Různé plyny mohou zpomalovat a urychlovat proces rozkladu. Proces při výpočtu modifikátoru rozpadu zohledňuje příslušné poměry plynů ve smíšených atmosférách. Pro všechny potraviny platí následující poměry:
+
+&gt; Kyslík x 1,3
+&gt; Dusík x 0,6
+&gt; oxid uhličitý x 0,8
+&gt; těkavé látky x 1
+&gt; Znečišťující látka x 3
+&gt; Oxid dusný x 1,5
+&gt; Voda x 2
+&gt; Vakuum - viz TLAK (výše).</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>HydrationPage</Key>
+      <Title>Žízeň + hydratace</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Váš průměrný Stationeer potřebuje pravidelně pít vodu. Avšak tajuplné a pravděpodobně chybné &lt;color=#0080FFFF&gt;{LINK:ODA;ODA}&lt;/color&gt; zdravotní a bezpečnostní předpisy dlouho upíraly Stationeerům právo na hydratační mechanismy v obleku. Místo toho musí dělat pravidelné přestávky na pití, aby si otevřeli přilbu a napili se vody. Činit tak v beztlakovém prostředí se nedoporučuje.
+
+Jak často pít? To se řídí obtížností, horkem na planetě a tím, jak rádi hýbete tělem.
+
+Voda má mnoho podob. Při přistání na nových planetách je Stationeerům v rámci jejich přídělu dodávána alespoň jedna {THING:ItemWaterBottle}, další jsou v bednách vašeho modulu. Ty lze doplňovat pomocí {THING:ItemWaterBottleFiller}, který musí být sám o sobě připojen k síti potrubí s kapalinou. Samotnou síť lze naplnit pomocí {THING:StructureIceCrusher} s vhodnou zásobou ledu.
+
+Míru žízně lze upravit v hlavní nabídce nastavení nastavením posuvníku Hlad/Hydratace.</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>EVAPage</Key>
+      <Title>EVA obleky</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Váš skafandr vám poskytne přenosnou atmosféru s nastavitelným tlakem a klimatizací (teplotou) a také výstražný systém, který vás upozorní, pokud se atmosféra uvnitř skafandru stane nebezpečnou. Aby správně fungoval, musí být vybaven vhodnou přilbou a také vhodnými kanystry na plyn a filtry v různých otvorech skafandru. Ty je třeba pravidelně měnit a lze je také dobíjet (nebo vybíjet) pomocí {THING:StructureSuitStorage}.
+
+Existuje několik obleků, včetně {THING:ItemEvaSuit} a obleku odolnějšího vůči tlaku a teplotě {THING:ItemHardSuit}.
+
+Různé údaje o vašem obleku jsou v pravém dolním rohu obrazovky. Stisknutím příslušné číselné klávesy (2 vyvoláte panel zobrazující jeho sloty a nastavení. Mezi ně patří:
+
+- Zapnutí/vypnutí klimatizace (tj. zapnutí/vypnutí regulace teploty)
+- Filtry zapnuto / vypnuto
+- Vzduch zapnutý / vypnutý
+- Zvýšení / snížení tlaku (s rozsahem od 0 kPA do 202 kPa nebo 0-2 zemské atmosféry)
+- Teplota nahoru / dolů (s rozsahem 0 °C až 60 °C)
+
+Obleky obsahují 6-8 slotů:
+- Vzduchová nádrž (x1) - vložte kanystr nebo inteligentní kanystr obsahující směs dýchatelných plynů, např. O2 nebo dusík/kyslík 35/65.
+- Odpadní nádrž (x1) - shromažďuje plyny odstraněné filtry
+- Podpora života (x1) - obsahuje jednu baterii, která napájí klimatizaci, světla atd.
+- Filtry (x3) - vyžaduje alespoň jeden filtr CO2 (pokud je člověk), v závislosti na vaší směsi dýchacích plynů. Všimněte si, že {THING:ItemHardSuit} má 4 sloty na filtry.
+- IC - pouze {THING:ItemHardSuit}.
+
+Tlak: měl by být nastaven na 50-100 KPa (0,5 až 1 pozemská atmosféra). Lidé ve hře snášejí až ~250 kPa a mohou přežít až ~300 kPA.
+
+Teplota: běžně se nastavuje na 18-21 °C, přičemž lidé ve hře dávají přednost 10-29 °C, snesou 0-39 °C a přežijí až 49 °C. Při vyšších teplotách bude vaše klimatizace spotřebovávat více energie z baterie na udržení vnitřní teploty.
+
+Filtry: Výchozím filtrem je filtr CO2, který zachycuje plyn vznikající při vydechování člověka. Pokud nepoužíváte 100% kyslík ve svém dýchacím plynu, přidejte další filtry, např. pokud smícháte 25% kyslíku + 75% dusíku, dusík se časem nahromadí ve vašem obleku a udusí vás, pokud nemáte dusíkový filtr. Pokud máte správné filtry a dýchací plyn, ale přesto máte problémy, použijte na své vesmírné přilbě funkci &quot;Vyprázdnit&quot;. Jakmile vaše filtry přestanou fungovat, ozve se varování o nízkém/kritickém obsahu kyslíku.
+
+V případě poškození lze skafandr opravit tak, že v ruce podržíte lepicí pásku a použijete tlačítko &quot;aktivovat&quot;.</Text>
+    </StationpediaPage>
+  </HelpPage>
+</Language>

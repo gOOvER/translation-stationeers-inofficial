@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>RU</Code>
+  <Interface>
+    <Record>
+      <Key>ScenariosBorznacsKitchen</Key>
+      <Value>Кухня Борзнака</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralGasMixingSubTitle</Key>
+      <Value>Пора бы готовить</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenDescription</Key>
+      <!--Menu Disc-->
+      <Value>Когда Синотай оборвал торговые связи с ним, Борзнак Пятый решил построить собственную империю, захватив все близлежащие лунные базы, включая вашу.
+Вас заставили работать в качестве его персонального повара. Так что пора вам приступить к готовке.</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenIntroDescription</Key>
+      <!--Intro Panel-->
+      <Value>Борзнак Пятый известен не за свою любезность. Когда Синотай оборвал торговые связи с ним, он решил построить собственную империю, захватив все близлежащие лунные базы, включая вашу.
+Вас заставили работать в качестве его персонального повара. Всё ещё неизвестно, что стало с прошлым поваром, и не хочется узнавать. Борзнак имеет немалый аппетит и очень нетерпелив, так что пора вам приступить к готовке.</Value>
+    </Record>
+    <Record>
+      <Key>CookingForYourLifeSubTitle</Key>
+      <Value>Готовьте, чтобы выжить!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato1</Key>
+      <Value>Приготовьте и отправьте 4 печёных картошки.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask1</Key>
+      <Value>Приготовьте и отправьте 2 пачки картофеля фри.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask1</Key>
+      <Value>Приготовьте и отправьте 3 маффина.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask1</Key>
+      <Value>Приготовьте и отправьте 2 буханки хлеба.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask1</Key>
+      <Value>Изготовьте и отправьте 2 пакета молока.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinPie1</Key>
+      <Value>Испеките и отправьте 2 тыквенных пирога.</Value>
+    </Record>
+    <Record>
+      <Key>TomatoSoup1</Key>
+      <Value>Смешайте и отправьте банку томатного супа.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinSoup1</Key>
+      <Value>Смешайте и отправьте банку тыквенного супа.</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato2</Key>
+      <Value>Испеките и отправьте 2 печёных картошки.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask2</Key>
+      <Value>Испеките и отправьте 1 буханку хлеба.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask2</Key>
+      <Value>Нажарьте и отправьте 1 пачку картофеля фри.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinTask2</Key>
+      <Value>Испеките и отправьте 1 тыквенный пирог.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask2</Key>
+      <Value>Испеките и отправьте 3 маффина.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask2</Key>
+      <Value>Изготовьте и отправьте 2 пакета молока.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration4D</Key>
+      <Value>От всей этой еды весьма пересыхает горло. Мне нужно выпить. Лучше всего подойдёт свежее молоко. Так что сделай его!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration5D</Key>
+      <Value>А ты справляешься куда лучше своего предшественника. Теперь мне нужно что-то классическое. Тыквенный пирог, вот что я хочу. Сделай его немедленно. Я открыл трубу в кладовке. Можешь воспользоваться всем, что оставил прошлый повар.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacWinEnd</Key>
+      <Value>Вы зарекомендовали себя как незаменимый слуга Борзнака.
+			
+Поздравляю.</Value>
+    </Record>
+  </Interface>
+</Language>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>HU</Code>
+  <Interface>
+    <Record>
+      <Key>ScenariosBorznacsKitchen</Key>
+      <Value>Borznac konyhája</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralGasMixingSubTitle</Key>
+      <Value>Jobb, ha elkezdesz főzni!</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenDescription</Key>
+      <!--Menu Disc-->
+      <Value>Miután több Sinotaijal kötött kereskedelmi megállapodásból is kizárták, V. Borznac úgy döntött, hogy maga épít egy saját birodalmat. Ezt a közeli holdbázisok elfoglalásával kezdte, beleértve a tiedet is.
+Arra lettél kényszerítve, hogy te legyél V. Borznac új személyi séfje. Jobb, ha elkezdesz főzni!</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenIntroDescription</Key>
+      <!--Intro Panel-->
+      <Value>V. Borznac nem a kedvességéről híres... Miután több Sinotaijal kötött kereskedelmi megállapodásból is kizárták, úgy döntött, hogy maga épít egy saját birodalmat. Ezt a közeli holdbázisok elfoglalásával kezdte, beleértve a tiedet is.
+Arra lettél kényszerítve, hogy te legyél V. Borznac új személyi séfje. Még mindig nem tudod, mi történhetett az előző séffel, de nem akarsz rájönni. Elég jó az étvágya, és türelmetlen is! Szóval jobb, ha elkezdesz főzni!</Value>
+    </Record>
+    <Record>
+      <Key>CookingForYourLifeSubTitle</Key>
+      <Value>Főzz az életedért!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato1</Key>
+      <Value>Készíts el és szállíts le 4 adag sült burgonyát!</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask1</Key>
+      <Value>Készíts el és szállíts le 2 adag sült krumplit!</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask1</Key>
+      <Value>Süss meg és szállíts le 3 muffint!</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask1</Key>
+      <Value>Süss meg és szállíts le 2 vekni kenyeret!</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask1</Key>
+      <Value>Állíts elő és szállíts le 2 doboz tejet!</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinPie1</Key>
+      <Value>Süss meg és szállíts le 2 tökpitét!</Value>
+    </Record>
+    <Record>
+      <Key>TomatoSoup1</Key>
+      <Value>Turmixolj, és szállíts le egy konzervnyi paradicsomlevest!</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinSoup1</Key>
+      <Value>Turmixolj, és szállíts le egy konzervnyi töklevest!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato2</Key>
+      <Value>Készíts el és szállíts le 2 sült burgonyát!</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask2</Key>
+      <Value>Süss és szállíts le egy vekni kenyeret!</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask2</Key>
+      <Value>Süss meg és szállíts le 1 csomag sült krumplit!</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinTask2</Key>
+      <Value>Süss meg és szállíts le 1 tökpitét!</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask2</Key>
+      <Value>Süss meg és szállíts le 3 muffint!</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask2</Key>
+      <Value>Állíts elő és szállíts le 2 doboz tejet!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration0D</Key>
+      <Value>Éhes vagyok, szóval készíts számomra némi sült burgonyát! Ne feledd, csak egyet tudsz sütni egyszerre! Ha készek, tedd őket a csúszdába! Ne kelljen csalódnom benned! A legutóbbi séfem lassú és hülye volt. Nem járt valami jól...</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration1D</Key>
+      <Value>Hát ez épphogy elégséges volt. Akarok valamit, aminek VAN ÍZE! Kérek  sült krumplit! Emlékszel, hogy kell sütni, ugye?</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration2D</Key>
+      <Value>Mmmmm... ez már jobb volt. Most valami édességet akarok. Készíts számomra muffinokat, vagy megtapasztalod haragom!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration3D</Key>
+      <Value>Ah, ettől a sok édes íztől megkívántam a tésztát... igen, egy kis kenyér most jól esne!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration4D</Key>
+      <Value>Ettől a sok ételtől kicsit kiszáradtam... szomjas vagyok. Egy kis friss tej tökéletes lenne. Hozz!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration5D</Key>
+      <Value>Ah, sokkal tehetségesebb vagy, mint az elődöd! Most valami klasszikusat kérek. Egy jó tökpitét! Azonnal kérem! Az alapanyag szobában kinyitottam a csúszdát. Bármit használhatsz, amit az előző szakács hátrahagyott.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration6D</Key>
+      <Value>Kiváló! Az ügyetlen elődöddel ellentétben benned megvan az, amit megérdemlek! Egyszer talán szabadon is engedlek. Talán. De most... VACSORA! Egy teljes, háromfogásos vacsorát kérek, vagy szendvedj  szörnyű következménytől!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacWinEnd</Key>
+      <Value>Bebizonyítottad, hogy Borznac nélkülözhetetlen kiszolgálója vagy!
+			
+Gratulálok!</Value>
+    </Record>
+  </Interface>
+</Language>

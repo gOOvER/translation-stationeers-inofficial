@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <Interface>
+    <Record>
+      <Key>ScenariosBorznacsKitchen</Key>
+      <Value>Cocina Borznac&apos;s</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralGasMixingSubTitle</Key>
+      <Value>Mejor ponte a cocinar</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenDescription</Key>
+      <!--Menu Disc-->
+      <Value>Después de ser eliminado de varios acuerdos comerciales con Sinotai, Borznac el quinto ha decidido construir un imperio propio, tomando el control de todas las bases lunares cercanas, incluida la tuya.
+Te han obligado a trabajar como su nuevo chef personal. Así que será mejor que te pongas a cocinar.</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenIntroDescription</Key>
+      <!--Intro Panel-->
+      <Value>Borznac el quinto no es conocido por sus sutilezas. Después de ser eliminado de varios acuerdos comerciales con Sinotai, decidió construir un imperio propio, tomando el control de todas las bases lunares cercanas, incluida la suya.
+Te han obligado a trabajar como su nuevo chef personal. Aún no sabes qué le pasó a su último chef y no quieres saberlo. Tiene bastante apetito y está muy impaciente. Así que será mejor que te pongas a cocinar.</Value>
+    </Record>
+    <Record>
+      <Key>CookingForYourLifeSubTitle</Key>
+      <Value>¡Cocina por tu vida!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato1</Key>
+      <Value>Cocina y entrega 4 patatas al horno.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask1</Key>
+      <Value>Cocina y entrega 2 paquetes de patatas fritas.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask1</Key>
+      <Value>Hornea y entrega 3 Muffins.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask1</Key>
+      <Value>Cocina y entregua 2 hogazas de pan.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask1</Key>
+      <Value>Fabrica y entrega 2 cartones de leche.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinPie1</Key>
+      <Value>Hornea y entrega 2 pasteles de calabaza.</Value>
+    </Record>
+    <Record>
+      <Key>TomatoSoup1</Key>
+      <Value>Mezcla y entrega una lata de sopa de tomate.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinSoup1</Key>
+      <Value>Mezcla y entrega una lata de sopa de calabaza.</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato2</Key>
+      <Value>Cocina y entrega 2 patatas al horno.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask2</Key>
+      <Value>Hornea y entrega 1 barra de pan.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask2</Key>
+      <Value>Cocina y entrega 1 paquete de patatas fritas.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinTask2</Key>
+      <Value>Hornea y entrega 1 pasteles de calabaza.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask2</Key>
+      <Value>Hornea y entrega 3 Muffins.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask2</Key>
+      <Value>Fabrica y entrega 2 cartones de leche.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration0D</Key>
+      <Value>Tengo hambre, así que prepárame unas patatas al horno. Pero recuerda, solo puedes cocinar uno a la vez.
+Cuando estén listas, entrégamelas por la rampa. No me defraudes. Mi último chef fue lento y estúpido. Las cosas no le salieron bien...</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration1D</Key>
+      <Value>Eso fue apenas fue adecuado. Quiero algo con un poco mas de SABOR. Exijo patatas fritas! ¿Seguro que recuerdas cómo cocinarlas?</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration2D</Key>
+      <Value>Mmmmm ... eso estuvo mejor. Ahora quiero un postre dulce. Hazme unos muffins o experimenta mi ira.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration3D</Key>
+      <Value>Ah, toda esa dulzura me ha puesto de mal humor. Sí, creo que un poco de pan me sentará bien.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration4D</Key>
+      <Value>Toda esta comida me ha dejado la boca un poco reseca. Necesito una bebida. Un poco de leche fresca será perfecta. ¡Hazlo ya!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration5D</Key>
+      <Value>Ah, lo has hecho mucho mejor que tu predecesor. Ahora, algo clásico. Un pastel de calabaza es lo que necesito. Hazme uno de inmediato. Abrí un paracaídas en la sala de recursos. Puede usar cualquier cosa que haya dejado el último chef.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration6D</Key>
+      <Value>Excelente. A diferencia del imbécil de tu precursor, es posible que tengas lo que se necesita para servirme. Un día, incluso podría considerar darte libertad. Quizás. Pero ahora estoy listo para la CENA. Complete una comida de tres platos o sufrirás consecuencias indescriptibles.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacWinEnd</Key>
+      <Value>Has demostrado ser un sirviente indispensable de Borznac.
+
+Felicidades.</Value>
+    </Record>
+  </Interface>
+</Language>

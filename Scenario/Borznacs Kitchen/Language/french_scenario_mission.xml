@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>FR</Code>
+  <Interface>
+    <Record>
+      <Key>ScenariosBorznacsKitchen</Key>
+      <Value>La cuisine de Borznac</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralGasMixingSubTitle</Key>
+      <Value>Mieux vaut cuisiner</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenDescription</Key>
+      <!--Menu Disc-->
+      <Value>Après avoir été coupé de plusieurs accords commerciaux avec Sinotai, Borznac le 5ème a décidé de construire son propre empire, en prenant le contrôle de toutes les bases lunaires à proximité, y compris la vôtre.
+Vous avez été forcé de travailler comme son nouveau chef personnel. Donc, vous feriez mieux de cuisiner.</Value>
+    </Record>
+    <Record>
+      <Key>ScenariosBorznacsKitchenIntroDescription</Key>
+      <!--Intro Panel-->
+      <Value>Borznac le 5ème n’est pas connu pour ses subtilités. Après avoir été exclu de plusieurs accords commerciaux avec Sinotai, il a décidé de construire son propre empire, en prenant le contrôle de toutes les bases lunaires à proximité, y compris la vôtre.
+Vous avez été forcé de travailler comme son nouveau chef personnel. Vous ne savez toujours pas ce qui est arrivé à son dernier chef, et vous ne voulez pas le savoir. Il a de l’appétit, et est très impatient. Donc, vous feriez mieux de cuisiner.</Value>
+    </Record>
+    <Record>
+      <Key>CookingForYourLifeSubTitle</Key>
+      <Value>Cuisinez pour votre vie!</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato1</Key>
+      <Value>Cuire et livrer 4 pommes de terre au four.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask1</Key>
+      <Value>Cuire et livrer 2 paquets de frites.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask1</Key>
+      <Value>Cuire et livrer 3 muffins.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask1</Key>
+      <Value>Cuire et livrer 2 pains.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask1</Key>
+      <Value>Fabriquer et livrer 2 boites de lait.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinPie1</Key>
+      <Value>Cuire et livrer 2 tartes à la citrouille.</Value>
+    </Record>
+    <Record>
+      <Key>TomatoSoup1</Key>
+      <Value>Préparer et livrer une boîte de soupe à la tomate.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinSoup1</Key>
+      <Value>Préparer et livrer une boîte de soupe à la citrouille.</Value>
+    </Record>
+    <Record>
+      <Key>BakedPotato2</Key>
+      <Value>Cuire et livrer 2 pommes de terre au four.</Value>
+    </Record>
+    <Record>
+      <Key>BreadTask2</Key>
+      <Value>Cuire et livrer 1 miche de pain.</Value>
+    </Record>
+    <Record>
+      <Key>FriesTask2</Key>
+      <Value>Faire frire et livrer 1 paquet de frites.</Value>
+    </Record>
+    <Record>
+      <Key>PumpkinTask2</Key>
+      <Value>Cuire et livrer 1 tarte à la citrouille.</Value>
+    </Record>
+    <Record>
+      <Key>MuffinTask2</Key>
+      <Value>Cuire et livrer 3 muffins.</Value>
+    </Record>
+    <Record>
+      <Key>MilkTask2</Key>
+      <Value>Fabriquer et livrer 2 boites de lait.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration0D</Key>
+      <Value> J’ai faim, alors faites-moi des pommes de terre au four. Mais rappelez-vous, vous ne pouvez en cuisiner qu’une à la fois.
+Quand elles sont prêtes, livrez-les moi par la gaine de transport. Ne me décevez pas. Mon dernier chef était lent et stupide. Les choses ne se sont pas bien passés pour lui.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration1D</Key>
+      <Value>C’était à peine suffisant. Je veux quelque chose avec un peu de SAVEUR. Je demande des frites ! Vous vous souvenez sûrement comment les cuisiner?</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration2D</Key>
+      <Value>Mmmmm ... c’était mieux. Maintenant, je veux une collation sucrée. Faites-moi des muffins ou expérimentez ma colère.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration3D</Key>
+      <Value>Ah, toute cette douceur me pèse sur l&apos;estomac. Oui, je pense qu&apos;avec du pain, cela va passer.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration4D</Key>
+      <Value>Toute cette nourriture m’a un peu desséché la gorge. J’ai besoin d’un verre. Un verre de bon lait frais sera parfait. Faites-le ainsi!</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration5D</Key>
+      <Value>Ah, vous avez fait beaucoup mieux que votre prédécesseur. Passons maintenant à quelque chose de plus classique, j&apos;ai besoin d&apos;une tarte à la citrouille. Faites-moi en une immédiatement. J’ai ouvert une gaine de transport dans la salle de ressources. Vous pouvez utiliser tout ce que le dernier chef a laissé derrière lui.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacsNarration6D</Key>
+      <Value>Excellent. Contrairement à votre imbécile de prédécesseur, vous avez peut-être ce qu’il faut pour me servir. Un jour, je pourrais même envisager de vous libéré, peut-être. Mais pour le moment, je suis prêt pour le DÎNER. Préparez un repas de trois plats ou subissez d&apos;épouvantables conséquences.</Value>
+    </Record>
+    <Record>
+      <Key>BorznacWinEnd</Key>
+      <Value>Vous avez prouvé que vous êtes un serviteur indispensable de Borznac.
+			
+Félicitations.</Value>
+    </Record>
+  </Interface>
+</Language>

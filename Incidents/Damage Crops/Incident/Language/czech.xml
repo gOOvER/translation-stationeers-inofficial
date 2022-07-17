@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Czech</Name>
+  <Code>CS</Code>
+  <Font>font_russian</Font>
+  <Interface>
+    <Record>
+      <Key>Incident_PlantInfected_Title</Key>
+      <Value>Rostliny zamořené houbami</Value>
+    </Record>
+    <Record>
+      <Key>Incident_PlantInfected</Key>
+      <Value>Varování, některé rostliny v oblasti byly napadeny plísněmi</Value>
+    </Record>
+  </Interface>
+</Language>

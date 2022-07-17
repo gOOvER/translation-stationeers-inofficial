@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>CS</Code>
+  <Interface>
+    <Record>
+      <Key>TutoiralHydroponicsAndFood</Key>
+      <Value>Hydroponie, hydratace + jídlo</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralHydroponicsAndFood</Key>
+      <!--This is the description that appers in the menu-->
+      <Value>Hydroponie, hydratace + jídlo</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralHydroponicsAndFoodSubTitle</Key>
+      <Value>Máte hlad? Vyzkoušejte si, jak se dokážete uživit mimo Zemi.</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralHydroponicsAndFoodSubTitle2</Key>
+      <Value>Praktický výcvik: Fáze VI</Value>
+    </Record>
+    <Record>
+      <Key>TutoiralHydroponicsAndFoodDescription</Key>
+      <Value>Vítejte, kadete. Je čas otestovat vaši schopnost udržet se daleko, daleko od domova.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration1D2</Key>
+      <Value>V této fázi se budeme zabývat udržováním hydratace, pěstováním potravin a jejich přípravou na něco užitečného. Začněte zřízením stanice pro doplňování vody do lahví.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration1D</Key>
+      <Value>V každém hydratačním systému potřebujete místo, kam můžete uložit vodu. Sestavte nádrž na vodu a konektor pro nádrž na vodu, abyste ji mohli připojit k potrubní síti. </Value>
+    </Record>
+    <Record>
+      <Key>6BuildTankConnecter</Key>
+      <Value>Postavte konektor nádrže na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6MoveThingArea</Key>
+      <Value>Nádrž na vodu připevněte na konektor nádrže</Value>
+    </Record>
+    <Record>
+      <Key>ConnectTankToConnecter</Key>
+      <Value>Pomocí hasáku připojte nádrž na vodu ke konektoru nádrže.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration3D</Key>
+      <Value>Dokončete kapalinovou potrubní síť připojením kapalinových trubek ke konektoru nádrže.</Value>
+    </Record>
+    <Record>
+      <Key>6GetPipe</Key>
+      <Value>Vezměte potrubí na kapaliny z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6BuildPipe</Key>
+      <Value>Umístěte potrubní T-spoj na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6BuildPipept2</Key>
+      <Value>Umístěte trubku na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6BuildPipept3</Key>
+      <Value>Umístěte T-trubku na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6Narration4D</Key>
+      <Value>Než něco zasadíte, nainstalujte si světlo, abyste mohli pěstovat i v noci.</Value>
+    </Record>
+    <Record>
+      <Key>6GetGrowLight</Key>
+      <Value>Vezměte růstové světlo z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6BuildGrowLight</Key>
+      <Value>Umístěte růstové světlo na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6GrowLightOn</Key>
+      <Value>Zapněte růstové světlo</Value>
+    </Record>
+    <Record>
+      <Key>6Narration5D</Key>
+      <Value>Různé rostliny vyžadují různé atmosférické poměry.
+Dnes si však vyzkoušíme jen základy: máte vodu, světlo a správnou směs plynů, takže je čas zasadit pšenici do každé z hydroponických vaniček.</Value>
+    </Record>
+    <Record>
+      <Key>6GetWheat</Key>
+      <Value>Vezměte semena pšenice z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6PlantWheat</Key>
+      <Value>Do hydroponických vaniček zasaďte pšenici.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration6D</Key>
+      <Value>V další fázi si vyzkoušíme vaše dovednosti s plynovými systémy, ale zatím počkejte, až vám vyroste pšenice. Pro urychlení jsme přidali trochu superhnojiva.</Value>
+    </Record>
+    <Record>
+      <Key>6WaitForWheatToGrow</Key>
+      <Value>Počkejte, až vyroste pšenice.</Value>
+    </Record>
+    <Record>
+      <Key>6Narration6D</Key>
+      <Value>V další fázi si vyzkoušíme vaše dovednosti s plynovými systémy, ale zatím počkejte, až vám vyroste pšenice. Pro urychlení jsme přidali trochu superhnojiva.</Value>
+    </Record>
+    <Record>
+      <Key>6HarvestWheat</Key>
+      <Value>Skliďte 20 pšenic</Value>
+    </Record>
+    <Record>
+      <Key>6PutWheatInProcessor</Key>
+      <Value>Přidejte pšenici do trychtýře zpracovatele činidel</Value>
+    </Record>
+    <Record>
+      <Key>6BenchOn</Key>
+      <Value>Zapněte lavici</Value>
+    </Record>
+    <Record>
+      <Key>6ReagentProcessorOn</Key>
+      <Value>Zapněte zpracovatel činidel</Value>
+    </Record>
+    <Record>
+      <Key>6Narration8D</Key>
+      <Value>Za chvíli budete mít mouku, takže se můžete pustit do pečení. V mikrovlnné troubě můžete připravovat různé pokrmy, včetně lahodných muffinů. Dbejte na to, abyste přesně dodržovali recept, protože pečení je věda.</Value>
+    </Record>
+    <Record>
+      <Key>6PutEggInMicrowave</Key>
+      <Value>Přidejte vejce do mikrovlné trouby</Value>
+    </Record>
+    <Record>
+      <Key>6PutMilkInMicrowave</Key>
+      <Value>Přidejte 10 ml mléka do mikrovlné trouby</Value>
+    </Record>
+    <Record>
+      <Key>6PutFlourInMicrowave</Key>
+      <Value>Přidejte 50 g mouky do mikrovlné trouby</Value>
+    </Record>
+    <Record>
+      <Key>6MicrowaveOn</Key>
+      <Value>Zapněte mikrovlnnou troubu</Value>
+    </Record>
+    <Record>
+      <Key>6BakeMuffin</Key>
+      <Value>Upečte muffin</Value>
+    </Record>
+    <Record>
+      <Key>6Narration9D</Key>
+      <Value>Právě dostáváte jeden z nejlepších muffinů Agrizero. Vychutnejte si ho - a zažeňte hlad, kadete.</Value>
+    </Record>
+    <Record>
+      <Key>6EatMuffin</Key>
+      <Value>Jezte muffin</Value>
+    </Record>
+    <Record>
+      <Key>6Narration10D</Key>
+      <Value>Výborně, kadete. Prokázal jste vysokou míru soběstačnosti a přijatelný kulinářský talent. Velitelství Stationeerů na vás bude pyšné. Stiskněte důležité modré tlačítko a předejte své výsledky.</Value>
+    </Record>
+    <Record>
+      <Key>6OnButtonPressTask</Key>
+      <Value>Stiskněte důležité tlačítko</Value>
+    </Record>
+    <Record>
+      <Key>6FlourCreated</Key>
+      <Value>Vytvořte mouku</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationInsert1D</Key>
+      <Value>Nyní máte k dispozici zásoby vody, pusťte se do pěstování. Hydroponické vaničky představují jednoduchý a účinný systém pěstování rostlin všeho druhu. Dokončete síť přidáním dalšího zásobníku do sítě.</Value>
+    </Record>
+    <Record>
+      <Key>6MicrowaveClosed</Key>
+      <Value>Zavřete mikrovlnnou troubu</Value>
+    </Record>
+    <Record>
+      <Key>6MicrowaveOpened</Key>
+      <Value>Otevřete mikrovlnnou troubu</Value>
+    </Record>
+    <Record>
+      <Key>6HydroponicTray</Key>
+      <Value>Postavte hydroponickou vaničku</Value>
+    </Record>
+    <Record>
+      <Key>6BuildCables</Key>
+      <Value>Postavte kabel na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6PickUpCable</Key>
+      <Value>Vezměte kabel</Value>
+    </Record>
+    <Record>
+      <Key>6PickUpCable</Key>
+      <Value>Vezměte kabel</Value>
+    </Record>
+    <Record>
+      <Key>6PickUpItemHydroponicTray</Key>
+      <Value>Vezměte hydroponickou vaničku</Value>
+    </Record>
+    <Record>
+      <Key>6GetFlour</Key>
+      <Value>Získejte mouku ze zpracovatele činidel</Value>
+    </Record>
+    <Record>
+      <Key>6EndScreenText</Key>
+      <Value>Dobrá práce, kadete. Prokázal jste přijatelné hydratační a hydroponické schopnosti.</Value>
+    </Record>
+    <Record>
+      <Key>6WaitForGrow</Key>
+      <Value>Počkejte až pšenice poroste</Value>
+    </Record>
+    <Record>
+      <Key>6GetWaterBottleFiller</Key>
+      <Value>Vezměte plničku lahví na vodu z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6BuildWaterBottleFiller</Key>
+      <Value>Umístěte plničku lahví na vodu na zvýrazněné místo</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra1</Key>
+      <Value>Jste téměř připraveni naplnit si láhev s vodou. Vezměte prázdnou láhev z bedny a vložte ji do plničky.</Value>
+    </Record>
+    <Record>
+      <Key>6GetWaterBottle</Key>
+      <Value>Vezměte prázdnou láhev na vodu z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6AddWaterbottletofiller</Key>
+      <Value>Přidejte láhev na vodu do plničky</Value>
+    </Record>
+    <Record>
+      <Key>6NarrationExtra2</Key>
+      <Value>Vynikající. Nyní je čas přidat do kapalinové sítě vodu. Vezměte z bedny hornický opasek. Pak použijte drtič ledu a zpracujte led na vodu.</Value>
+    </Record>
+    <Record>
+      <Key>6GetMingBelt</Key>
+      <Value>Vezměte hornický opasek z bedny</Value>
+    </Record>
+    <Record>
+      <Key>6AddIceToCrusher</Key>
+      <Value>Vezměte led z hornického opasku a přidejte jej do drtiče ledu</Value>
+    </Record>
+    <Record>
+      <Key>6MIceCrusherOn</Key>
+      <Value>Zapněte drtič ledu pro naplnění láhve</Value>
+    </Record>
+  </Interface>
+</Language>
